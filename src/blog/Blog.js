@@ -138,8 +138,7 @@ export default function Blog() {
                       La app "protege" a las personas en un rango de dos metros
                       basada principalmente en el alcance de la intensidad de la
                       señal del Bluetooth del dispositivo que tenga el usuario
-                      {"("} es un algoritmo que contempla el hardware, y su
-                      pensamos en el fin del Bluetooth este mismo no fue pensado
+                      {"("} es un algoritmo que contempla el hardware, y no fue pensado
                       para medir distancias , sino para transferencia de
                       archivos{")"}.
                     </Typography>
@@ -147,12 +146,12 @@ export default function Blog() {
                       El principal problema de la app , es que esta considera
                       que los dos metros es la distancia segura , lo cual es
                       cierto para {"("} ej.dos personas que se cruzan en la
-                      calle {")"} , pero no para alguien que va un vehiculo{" "}
+                      calle {")"} , pero no para alguien que va en  un vehiculo{" "}
                       {"("}ej. bicicleta o moto{")"} , en este caso el rango
                       seguro no son dos metros
                       {"("}ej.Imaginemos que hay una persona contagiada que va
                       en moto y se cruza con una persona que va caminando por la
-                      calle ; en este caso podriamos decir que el rango seguro
+                      calle, en este caso podriamos decir que el rango seguro
                       es no menor de cinco metros , esto debido a la propagacion
                       del virus por "spray" es decir la capacidad de mantenerse
                       en el aire{")"} . Como vemos la distancia segura varia
@@ -256,10 +255,10 @@ export default function Blog() {
                     color="textSecondary"
                     component="p"
                   >
-                    La veriguacion de la distancias de cada vehiculo
-                    enparticular depende en gran medida de hacer los
-                    experiemntos ncesarios en campo , para determinar un
-                    porcentaje con mayor presicion
+                    La averiguacion de las distancias de cada vehiculo
+                    en particular depende en gran medida de hacer las pruebas
+                    necesarias en campo , para determinar un
+                    porcentaje con mayor presicion.
                   </Typography>
                 </CardContent>
                 <CardActions disableSpacing>
@@ -287,7 +286,7 @@ export default function Blog() {
                     </Typography>
                     <Typography paragraph>
 
-                      Dado el caso Una persona A se encuentra viajando enun bus de servicio publico ,
+                      Dado el caso Una persona A se encuentra viajando en un bus de servicio publico ,
                       todos los dispositivos al rededor del mismo activarian este flag , 
                       que para empezar indicaria que estan en una combi y en el caso de haber una persona 
                       contagiada el rastreo seria mas eficiente .
